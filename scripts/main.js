@@ -17,8 +17,8 @@ let futureAge = age + 20;
 
 /* display age and future age in differentparagraphs */
 const section = document.querySelector("section");
+const para1 = document.getElementById("age");
 const para2 = document.createElement("p");
-const para1 = document.querySelector("p");
 para1.textContent = "Age:" + age;
 para2.textContent = "In twenty years, your age will be " + futureAge + " years old.";
 section.appendChild(para1);
